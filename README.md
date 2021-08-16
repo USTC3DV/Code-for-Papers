@@ -77,10 +77,10 @@ AANet: Adaptive Aggregation Network for Efficient Stereo Matching. CVPR 2020<br>
     <tbody>
         <tr>
         <td style="vertical-align:middle">
-            <img src='images/1D-Flow.jpg' style="width:200px;">
+            <img src='images/1D-Flow.jpg' width = "400">
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
-            <papertitle>High-Resolution Optical Flow from 1D Attention and Correlation</papertitle>
+            <papertitle><strong>High-Resolution Optical Flow from 1D Attention and Correlation</strong></papertitle>
             </a>
             <br>
             Haofei Xu, Jiaolong Yang, Jianfei Cai, Juyong Zhang, Xin Tong
@@ -105,10 +105,10 @@ AANet: Adaptive Aggregation Network for Efficient Stereo Matching. CVPR 2020<br>
     <tbody>
         <tr>
         <td style="vertical-align:middle">
-            <img src='images/RMA-Registration.jpg' style="width:200px;">
+            <img src='images/RMA-Registration.jpg' width = "400">
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
-            <papertitle>Recurrent Multi-view Alignment Network for Unsupervised Surface Registration</papertitle>
+            <papertitle><strong>Recurrent Multi-view Alignment Network for Unsupervised Surface Registration</strong></papertitle>
             </a>
             <br>
             Wanquan Feng, Juyong Zhang, Hongrui Cai, Haofei Xu, Junhui Hou, Hujun Bao
@@ -176,10 +176,10 @@ Robust RGB-D Face Recognition Using Attribute-Aware Loss. TPAMI 2020<br>
     <tbody>
         <tr>
         <td style="vertical-align:middle">
-            <img src='images/CaricatureLandmark.jpg' style="width:200px;">
+            <img src='images/CaricatureLandmark.jpg' width = "400">
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
-            <papertitle>Landmark Detection and 3D Face Reconstruction for Caricature using a Nonlinear Parametric Model</papertitle>
+            <papertitle><strong>Landmark Detection and 3D Face Reconstruction for Caricature using a Nonlinear Parametric Model</strong></papertitle>
             </a>
             <br>
             Hongrui Cai, Yudong Guo, Zhuang Peng, Juyong Zhang
@@ -211,10 +211,10 @@ Disentangled Representation Learning for 3D Face Shape. CVPR 2019<br>
     <tbody>
         <tr>
         <td style="vertical-align:middle">
-            <img src='images/AD-NeRF.jpg' style="width:200px;">
+            <img src='images/AudioNeRF.png' width = "400">
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
-            <papertitle>AD-NeRF: Audio Driven Neural Radiance Fields for Talking Head Synthesis</papertitle>
+            <papertitle><strong>AD-NeRF: Audio Driven Neural Radiance Fields for Talking Head Synthesis</strong></papertitle>
             </a>
             <br>
             Yudong Guo, Keyu Chen, Sen Liang, Yongjin Liu, Hujun Bao, Juyong Zhang
@@ -262,10 +262,10 @@ Disentangled Human Body Embedding Based on Deep Hierarchical Neural Network. TVC
     <tbody>
         <tr>
         <td style="vertical-align:middle">
-            <img src='images/StereoPiFU.jpg' style="width:200px;">
+            <img src='images/StereoPiFU.jpg' width = "400">
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
-            <papertitle>StereoPIFu: Depth Aware Clothed Human Digitization via Stereo Vision</papertitle>
+            <papertitle><strong>StereoPIFu: Depth Aware Clothed Human Digitization via Stereo Vision</strong></papertitle>
             </a>
             <br>
             Yang Hong, Juyong Zhang, Boyi Jiang, Yudong Guo, Ligang Liu, Hujun Bao
