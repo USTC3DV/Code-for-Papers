@@ -547,7 +547,7 @@ This repository contains the links of code for partial papers.
     <tbody>
         <tr>
         <td style="vertical-align:middle">
-            <img src='images/AudioNeRF.png' width = "400">
+            <img src='images/AudioNeRF.png' width = "600">
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
             <papertitle><strong>AD-NeRF: Audio Driven Neural Radiance Fields for Talking Head Synthesis</strong></papertitle>
