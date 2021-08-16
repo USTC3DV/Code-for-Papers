@@ -72,8 +72,29 @@ AANet: Adaptive Aggregation Network for Efficient Stereo Matching. CVPR 2020<br>
 
 ## Optical Flow
 
-High-Resolution Optical Flow from 1D Attention and Correlation. ICCV 2021 Oral<br>
-[paper](https://arxiv.org/abs/2104.13918) | [code]()<br><br>
+<table
+    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+        <tr>
+        <td style="vertical-align:middle">
+            <img src='images/1D-Flow.jpg' style="width:200px;">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>High-Resolution Optical Flow from 1D Attention and Correlation</papertitle>
+            </a>
+            <br>
+            Haofei Xu, Jiaolong Yang, Jianfei Cai, Juyong Zhang, Xin Tong
+            <br>
+            IEEE International Conference on Computer Vision (ICCV), 2021
+            <br>
+            <a href="https://arxiv.org/abs/2104.13918">paper</a> /
+            <a href="http://staff.ustc.edu.cn/~juyong/publications.html">code</a>
+            <p></p>
+            <p>We propose a new method for high-resolution optical flow estimation with significantly less computation, which is achieved by factorizing 2D optical flow with 1D attention and correlation.</p>
+        </td>
+        </tr>
+    </tbody>
+</table>
 
 <a name="Registration"/>
 
@@ -147,15 +168,15 @@ Disentangled Representation Learning for 3D Face Shape. CVPR 2019<br>
     <tbody>
         <tr>
         <td style="vertical-align:middle">
-            <img src='images/AudioNeRF.png' style="width:200px;">
+            <img src='images/AD-NeRF.jpg' style="width:200px;">
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
             <papertitle>AD-NeRF: Audio Driven Neural Radiance Fields for Talking Head Synthesis</papertitle>
             </a>
             <br>
-            <strong>Yudong Guo</strong>, Keyu Chen, Sen Liang, Yongjin Liu, Hujun Bao, Juyong Zhang
+            Yudong Guo, Keyu Chen, Sen Liang, Yongjin Liu, Hujun Bao, Juyong Zhang
             <br>
-            <em>IEEE International Conference on Computer Vision (ICCV) </em>, 2021
+            IEEE International Conference on Computer Vision (ICCV), 2021
             <br>
             <a href="https://arxiv.org/abs/2103.11078">paper</a> /
             <a href="https://yudongguo.github.io/ADNeRF/">project page</a> /
