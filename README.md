@@ -5,7 +5,7 @@ This repository contains the links of code for partial papers.
 
 # Classified catalogue
 
-| [Geometry Optimization & Mesh Processing](#GeometryOpt) | [Low-level Vision](#Low-level) | [Human Face](#Face) | [Human Body](#Body) |
+| [Geometry Optimization<br>& Mesh Processing](#GeometryOpt) | [Low-level Vision](#Low-level) | [Human Face](#Face) | [Human Body](#Body) |
 | ---- | ---- | ---- | ---- |
 | [Geodesic Distance Computation](#GeodesicDistance) | [Depth Estimation](#DepthEstimation) | [Face Reconstruction](#FaceReconstruction) | [Body Reconstruction](#BodyReconstruction) |
 | [ADMM](#ADMMs) | [Stereo Matching](#StereoMatching) | [Facial Motion Retargeting](#FaceRetargeting) | [Body Representation](#BodyRepresentation) |
