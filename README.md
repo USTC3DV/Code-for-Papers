@@ -142,8 +142,32 @@ Disentangled Representation Learning for 3D Face Shape. CVPR 2019<br>
 
 ## Face Synthesis
 
-AD-NeRF: Audio Driven Neural Radiance Fields for Talking Head Synthesis. ICCV 2021<br>
-[paper](https://arxiv.org/abs/2103.11078) | [project page](https://yudongguo.github.io/ADNeRF/) | [code](https://github.com/YudongGuo/AD-NeRF)<br><br>
+<table
+    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+        <tr>
+        <td style="vertical-align:middle">
+            <img src='images/AudioNeRF.png' style="width:200px;">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>AD-NeRF: Audio Driven Neural Radiance Fields for Talking Head Synthesis</papertitle>
+            </a>
+            <br>
+            <strong>Yudong Guo</strong>, Keyu Chen, Sen Liang, Yongjin Liu, Hujun Bao, Juyong Zhang
+            <br>
+            <em>IEEE International Conference on Computer Vision (ICCV) </em>, 2021
+            <br>
+            <a href="https://arxiv.org/abs/2103.11078">paper</a> /
+            <a href="https://yudongguo.github.io/ADNeRF/">project page</a> /
+            <a href="https://github.com/YudongGuo/AD-NeRF">code</a>
+            <p></p>
+            <p>We address the talking head problem with the aid of neural scene representation
+            networks. The feature of audio is fed into a conditional implicit function to generate a dynamic
+            neural radiance field for high-fidelity talking-head video synthesis.</p>
+        </td>
+        </tr>
+    </tbody>
+</table>
 
 ------
 
