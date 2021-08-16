@@ -17,7 +17,7 @@ This repository contains the links of code for partial papers.
 ------
 <a name="GeometryOpt"/>
 
-# Geometry Optimization & Mesh Processing
+# Geometry Processing
 
 <a name="GeodesicDistance"/>
 
