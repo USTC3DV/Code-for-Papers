@@ -100,8 +100,30 @@ AANet: Adaptive Aggregation Network for Efficient Stereo Matching. CVPR 2020<br>
 
 ## Surface Registration
 
-Recurrent Multi-view Alignment Network for Unsupervised Surface Registration.CVPR 2021<br>
-[paper](https://arxiv.org/abs/2011.12104) | [project page](https://wanquanf.github.io/RMA-Net.html) | [code](https://github.com/WanquanF/RMA-Net)<br><br>
+<table
+    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+        <tr>
+        <td style="vertical-align:middle">
+            <img src='images/RMA-Registration.jpg' style="width:200px;">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>Recurrent Multi-view Alignment Network for Unsupervised Surface Registration</papertitle>
+            </a>
+            <br>
+            Wanquan Feng, Juyong Zhang, Hongrui Cai, Haofei Xu, Junhui Hou, Hujun Bao
+            <br>
+            IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021
+            <br>
+            <a href="https://arxiv.org/abs/2011.12104">paper</a> /
+            <a href="https://wanquanf.github.io/RMA-Net.html">project page</a> /
+            <a href="https://github.com/WanquanF/RMA-Net">code</a>
+            <p></p>
+            <p>For non-rigid registration, we propose RMA-Net to deform the input surface shape stage by stage. RMA-Net is totally trained in an unsupervised manner via our proposed multi-view 2D projection loss.</p>
+        </td>
+        </tr>
+    </tbody>
+</table>
 
 Fast and Robust Iterative Closest Point. TPAMI 2021<br>
 [paper](https://arxiv.org/abs/2007.07627) | [code](https://github.com/yaoyx689/Fast-Robust-ICP)<br><br>
@@ -149,8 +171,29 @@ Robust RGB-D Face Recognition Using Attribute-Aware Loss. TPAMI 2020<br>
 
 ## Face Alignment
 
-Landmark Detection and 3D Face Reconstruction for Caricature using a Nonlinear Parametric Model. Graphical Models 2021<br>
-[paper](https://arxiv.org/abs/2004.09190) | [code](https://github.com/Juyong/CaricatureFace)<br><br>
+<table
+    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+        <tr>
+        <td style="vertical-align:middle">
+            <img src='images/CaricatureLandmark.jpg' style="width:200px;">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>Landmark Detection and 3D Face Reconstruction for Caricature using a Nonlinear Parametric Model</papertitle>
+            </a>
+            <br>
+            Hongrui Cai, Yudong Guo, Zhuang Peng, Juyong Zhang
+            <br>
+            Graphical Models, 2021
+            <br>
+            <a href="https://arxiv.org/abs/2004.09190">paper</a> /
+            <a href="https://github.com/Juyong/CaricatureFace">code</a>
+            <p></p>
+            <p>To the best of our knowledge, this is the first work for automatic landmark detection and 3D face reconstruction for general caricatures.</p>
+        </td>
+        </tr>
+    </tbody>
+</table>
 
 <a name="FaceRepresentation"/>
 
@@ -214,5 +257,27 @@ Disentangled Human Body Embedding Based on Deep Hierarchical Neural Network. TVC
 
 ## Human Digitization
 
-StereoPIFu: Depth Aware Clothed Human Digitization via Stereo Vision. CVPR 2021<br>
-[paper](https://arxiv.org/abs/2104.05289) | [project page](https://hy1995.top/StereoPIFuProject/) | [code](https://github.com/CrisHY1995/StereoPIFu_Code)<br><br>
+<table
+    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+        <tr>
+        <td style="vertical-align:middle">
+            <img src='images/StereoPiFU.jpg' style="width:200px;">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle>StereoPIFu: Depth Aware Clothed Human Digitization via Stereo Vision</papertitle>
+            </a>
+            <br>
+            Yang Hong, Juyong Zhang, Boyi Jiang, Yudong Guo, Ligang Liu, Hujun Bao
+            <br>
+            IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021
+            <br>
+            <a href="https://arxiv.org/abs/2104.05289">paper</a> /
+            <a href="https://hy1995.top/StereoPIFuProject/">project page</a> /
+            <a href="https://github.com/CrisHY1995/StereoPIFu_Code">code</a>
+            <p></p>
+            <p>We propose StereoPIFu, which integrates the geometric constraints of stereo vision with implicit function representation of PIFu, to recover the 3D shape of the clothed human.</p>
+        </td>
+        </tr>
+    </tbody>
+</table>
