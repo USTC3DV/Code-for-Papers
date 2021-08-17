@@ -5,155 +5,16 @@ This repository contains the links of code for partial papers.
 
 # Classified catalogue
 
-| [Geometry Processing](#GeometryOpt) | [Low-level Vision](#Low-level) | [Human Face](#Face) | [Human Body](#Body) |
-| ---- | ---- | ---- | ---- |
-| [Geodesic Distance Computation](#GeodesicDistance) | [Depth Estimation](#DepthEstimation) | [Face Reconstruction](#FaceReconstruction) | [Body Reconstruction](#BodyReconstruction) |
-| [ADMM](#ADMMs) | [Stereo Matching](#StereoMatching) | [Facial Motion Retargeting](#FaceRetargeting) | [Body Representation](#BodyRepresentation) |
-| [Mesh Filtering](#MeshFiltering) | [Optical Flow](#OpticalFlow) | [Face Recognition](#FaceRecognition) | [Human Digitization](#HumanDigitization) |
-| [Anderson Acceleration](#AndersonAcceleration) | [Surface Registration](#Registration) | [Face Alignment](#FaceAlignment) | |
-| |  | [Face Representation](#FaceRepresentation) | |
-| |  | [Face Synthesis](#FaceSynthesis) | |
+| [Low-level Vision](#Low-level) | [Human Face](#Face) | [Human Body](#Body) | [Geometry Processing](#GeometryOpt) |
+| :----: | :----: | :----: | :----: |
+| [Depth Estimation](#DepthEstimation) | [Face Reconstruction](#FaceReconstruction) | [Body Reconstruction](#BodyReconstruction) | [Geodesic Distance Computation](#GeodesicDistance) |
+| [Stereo Matching](#StereoMatching) | [Facial Motion Retargeting](#FaceRetargeting) | [Body Representation](#BodyRepresentation) | [ADMM](#ADMMs) |
+| [Optical Flow](#OpticalFlow) | [Face Recognition](#FaceRecognition) | [Human Digitization](#HumanDigitization) | [Mesh Filtering](#MeshFiltering) |
+| [Surface Registration](#Registration) | [Face Alignment](#FaceAlignment) | | [Anderson Acceleration](#AndersonAcceleration) |
+| | [Face Representation](#FaceRepresentation) | | |
+| | [Face Synthesis](#FaceSynthesis) | | |
 
 ------
-<a name="GeometryOpt"/>
-
-# Geometry Processing
-
-<a name="GeodesicDistance"/>
-
-## Geodesic Distance Computation
-
-<table
-    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-        <tr>
-        <td style="vertical-align:middle">
-            <img src='images/Geodesic.jpg' width = "250">
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-            <papertitle><strong>Parallel and Scalable Heat Methods for Geodesic Distance Computation</strong></papertitle>
-            </a>
-            <br>
-            Jiong Tao, Juyong Zhang, Bailin Deng, Zheng Fang, Yue Peng, Ying He
-            <br>
-            IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021
-            <br>
-            <a href="https://arxiv.org/abs/1812.06060">paper</a> /
-            <a href="https://github.com/bldeng/ParaHeat">code</a>
-            <p></p>
-            <p>In this paper, we propose a parallel and scalable approach for geodesic distance computation on triangle meshes.</p>
-        </td>
-        </tr>
-    </tbody>
-</table>
-
-<a name="ADMMs"/>
-
-## ADMM
-
-<table
-    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-        <tr>
-        <td style="vertical-align:middle">
-            <img src='images/AA-DR.jpg' width = "750">
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-            <papertitle><strong>Anderson Acceleration for Nonconvex ADMM Based on Douglas-Rachford Splitting</strong></papertitle>
-            </a>
-            <br>
-            Wenqing Ouyang, Yue Peng, Yuxin Yao, Juyong Zhang, Bailin Deng
-            <br>
-            Computer Graphics Forum (Symposium on Geometry Processing), 2020
-            <br>
-            <a href="https://arxiv.org/abs/2006.14539">paper</a> /
-            <a href="https://github.com/YuePengUSTC/AADR">code</a>
-            <p></p>
-            <p>In this paper, we note that the equivalence between ADMM and Douglas-Rachford splitting reveals that ADMM is in fact a fixed-point iteration in a lower-dimensional space. By applying Anderson acceleration to such lower-dimensional fixed-point iteration, we obtain a more effective approach for accelerating ADMM.</p>
-        </td>
-        </tr>
-    </tbody>
-</table>
-
-<table
-    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-        <tr>
-        <td style="vertical-align:middle">
-            <img src='images/ADMM-AA.jpg' width = "750">
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-            <papertitle><strong>Accelerating ADMM for Efficient Simulation and Optimization</strong></papertitle>
-            </a>
-            <br>
-            Juyong Zhang, Yue Peng, Wenqing Ouyang, Bailin Deng
-            <br>
-            ACM Transactions on Graphics (SIGGRAPH ASIA), 2019
-            <br>
-            <a href="https://arxiv.org/abs/1909.00470">paper</a> /
-            <a href="https://github.com/bldeng/AA-ADMM">code</a>
-            <p></p>
-            <p>We propose a method to speed up ADMM using Anderson acceleration, an established technique for accelerating fixed-point iterations. We show that in the general case, ADMM is a fixed-point iteration of the second primal variable and the dual variable, and Anderson acceleration can be directly applied.</p>
-        </td>
-        </tr>
-    </tbody>
-</table>
-
-<a name="MeshFiltering"/>
-
-## Mesh Filtering
-
-<table
-    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-        <tr>
-        <td style="vertical-align:middle">
-            <img src='images/SDFilter.jpg' width = "500">
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-            <papertitle><strong>Static/Dynamic Filtering for Mesh Geometry</strong></papertitle>
-            </a>
-            <br>
-            Juyong Zhang, Bailin Deng, Yang Hong, Yue Peng, Wenjie Qin, Ligang Liu
-            <br>
-            IEEE Transactions on Visualization and Computer Graphics (TVCG), 2019
-            <br>
-            <a href="https://arxiv.org/abs/1712.03574">paper</a> /
-            <a href="https://github.com/bldeng/MeshSDFilter">code</a>
-            <p></p>
-            <p>Inspired by recent advances in image filtering, we propose a new geometry filtering technique called static/dynamic filter, which utilizes both static and dynamic guidances to achieve state-of-the-art results.</p>
-        </td>
-        </tr>
-    </tbody>
-</table>
-
-<a name="AndersonAcceleration"/>
-
-## Anderson Acceleration
-
-<table
-    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-        <tr>
-        <td style="vertical-align:middle">
-            <img src='images/AAOptimization.jpg' width = "1000">
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-            <papertitle><strong>Anderson Acceleration for Geometry Optimization and Physics Simulation</strong></papertitle>
-            </a>
-            <br>
-            Yue Peng, Bailin Deng, Juyong Zhang, Fanyu Geng, Wenjie Qin, Ligang Liu
-            <br>
-            ACM Transactions on Graphics (SIGGRAPH), 2018
-            <br>
-            <a href="https://arxiv.org/abs/1805.05715">paper</a> /
-            <a href="https://github.com/bldeng/AASolver">code</a>
-            <p></p>
-            <p>Local-global solvers developed in recent years can quickly compute an approximate solution to such problems, making them an attractive choice for applications that prioritize efficiency over accuracy. However, these solvers suffer from lower convergence rate, and may take a long time to compute an accurate result. In this paper, we propose a simple and effective technique to accelerate the convergence of such solvers.</p>
-        </td>
-        </tr>
-    </tbody>
-</table>
 
 <a name="Low-level"/>
 
@@ -655,6 +516,148 @@ This repository contains the links of code for partial papers.
             <a href="https://github.com/CrisHY1995/StereoPIFu_Code">code</a>
             <p></p>
             <p>We propose StereoPIFu, which integrates the geometric constraints of stereo vision with implicit function representation of PIFu, to recover the 3D shape of the clothed human.</p>
+        </td>
+        </tr>
+    </tbody>
+</table>
+
+------
+
+<a name="GeometryOpt"/>
+
+# Geometry Processing
+
+<a name="GeodesicDistance"/>
+
+## Geodesic Distance Computation
+
+<table
+    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+        <tr>
+        <td style="vertical-align:middle">
+            <img src='images/Geodesic.jpg' width = "250">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle><strong>Parallel and Scalable Heat Methods for Geodesic Distance Computation</strong></papertitle>
+            </a>
+            <br>
+            Jiong Tao, Juyong Zhang, Bailin Deng, Zheng Fang, Yue Peng, Ying He
+            <br>
+            IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021
+            <br>
+            <a href="https://arxiv.org/abs/1812.06060">paper</a> /
+            <a href="https://github.com/bldeng/ParaHeat">code</a>
+            <p></p>
+            <p>In this paper, we propose a parallel and scalable approach for geodesic distance computation on triangle meshes.</p>
+        </td>
+        </tr>
+    </tbody>
+</table>
+
+<a name="ADMMs"/>
+
+## ADMM
+
+<table
+    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+        <tr>
+        <td style="vertical-align:middle">
+            <img src='images/AA-DR.jpg' width = "750">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle><strong>Anderson Acceleration for Nonconvex ADMM Based on Douglas-Rachford Splitting</strong></papertitle>
+            </a>
+            <br>
+            Wenqing Ouyang, Yue Peng, Yuxin Yao, Juyong Zhang, Bailin Deng
+            <br>
+            Computer Graphics Forum (Symposium on Geometry Processing), 2020
+            <br>
+            <a href="https://arxiv.org/abs/2006.14539">paper</a> /
+            <a href="https://github.com/YuePengUSTC/AADR">code</a>
+            <p></p>
+            <p>In this paper, we note that the equivalence between ADMM and Douglas-Rachford splitting reveals that ADMM is in fact a fixed-point iteration in a lower-dimensional space. By applying Anderson acceleration to such lower-dimensional fixed-point iteration, we obtain a more effective approach for accelerating ADMM.</p>
+        </td>
+        </tr>
+    </tbody>
+</table>
+
+<table
+    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+        <tr>
+        <td style="vertical-align:middle">
+            <img src='images/ADMM-AA.jpg' width = "750">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle><strong>Accelerating ADMM for Efficient Simulation and Optimization</strong></papertitle>
+            </a>
+            <br>
+            Juyong Zhang, Yue Peng, Wenqing Ouyang, Bailin Deng
+            <br>
+            ACM Transactions on Graphics (SIGGRAPH ASIA), 2019
+            <br>
+            <a href="https://arxiv.org/abs/1909.00470">paper</a> /
+            <a href="https://github.com/bldeng/AA-ADMM">code</a>
+            <p></p>
+            <p>We propose a method to speed up ADMM using Anderson acceleration, an established technique for accelerating fixed-point iterations. We show that in the general case, ADMM is a fixed-point iteration of the second primal variable and the dual variable, and Anderson acceleration can be directly applied.</p>
+        </td>
+        </tr>
+    </tbody>
+</table>
+
+<a name="MeshFiltering"/>
+
+## Mesh Filtering
+
+<table
+    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+        <tr>
+        <td style="vertical-align:middle">
+            <img src='images/SDFilter.jpg' width = "500">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle><strong>Static/Dynamic Filtering for Mesh Geometry</strong></papertitle>
+            </a>
+            <br>
+            Juyong Zhang, Bailin Deng, Yang Hong, Yue Peng, Wenjie Qin, Ligang Liu
+            <br>
+            IEEE Transactions on Visualization and Computer Graphics (TVCG), 2019
+            <br>
+            <a href="https://arxiv.org/abs/1712.03574">paper</a> /
+            <a href="https://github.com/bldeng/MeshSDFilter">code</a>
+            <p></p>
+            <p>Inspired by recent advances in image filtering, we propose a new geometry filtering technique called static/dynamic filter, which utilizes both static and dynamic guidances to achieve state-of-the-art results.</p>
+        </td>
+        </tr>
+    </tbody>
+</table>
+
+<a name="AndersonAcceleration"/>
+
+## Anderson Acceleration
+
+<table
+    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+        <tr>
+        <td style="vertical-align:middle">
+            <img src='images/AAOptimization.jpg' width = "1000">
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+            <papertitle><strong>Anderson Acceleration for Geometry Optimization and Physics Simulation</strong></papertitle>
+            </a>
+            <br>
+            Yue Peng, Bailin Deng, Juyong Zhang, Fanyu Geng, Wenjie Qin, Ligang Liu
+            <br>
+            ACM Transactions on Graphics (SIGGRAPH), 2018
+            <br>
+            <a href="https://arxiv.org/abs/1805.05715">paper</a> /
+            <a href="https://github.com/bldeng/AASolver">code</a>
+            <p></p>
+            <p>Local-global solvers developed in recent years can quickly compute an approximate solution to such problems, making them an attractive choice for applications that prioritize efficiency over accuracy. However, these solvers suffer from lower convergence rate, and may take a long time to compute an accurate result. In this paper, we propose a simple and effective technique to accelerate the convergence of such solvers.</p>
         </td>
         </tr>
     </tbody>
