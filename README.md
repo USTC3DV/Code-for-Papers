@@ -7,7 +7,7 @@ This repository contains the links of code for partial papers.
 
 | [Low-level Vision](#Low-level) | [Human Face](#Face) | [Human Body](#Body) | [Geometry Processing](#GeometryOpt) |
 | :----: | :----: | :----: | :----: |
-| [Depth Estimation](#DepthEstimation) | [Face Reconstruction](#FaceReconstruction) | [Body Reconstruction](#BodyReconstruction) | [Geodesic Distance Computation](#GeodesicDistance) |
+| [Depth Estimation](#DepthEstimation) | [Face Reconstruction](#FaceReconstruction) | [Body Reconstruction](#BodyReconstruction) | [Geodesic Computation](#GeodesicDistance) |
 | [Stereo Matching](#StereoMatching) | [Facial Motion Retargeting](#FaceRetargeting) | [Body Representation](#BodyRepresentation) | [ADMM](#ADMMs) |
 | [Optical Flow](#OpticalFlow) | [Face Recognition](#FaceRecognition) | [Human Digitization](#HumanDigitization) | [Mesh Filtering](#MeshFiltering) |
 | [Surface Registration](#Registration) | [Face Alignment](#FaceAlignment) | | [Anderson Acceleration](#AndersonAcceleration) |
