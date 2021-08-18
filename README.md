@@ -96,7 +96,7 @@ This repository contains the links of code for partial papers.
             IEEE International Conference on Computer Vision (ICCV), 2021
             <br>
             <a href="https://arxiv.org/abs/2104.13918">paper</a> /
-            <a href="http://staff.ustc.edu.cn/~juyong/publications.html">code</a>
+            <a href="https://github.com/haofeixu/flow1d">code</a>
             <p></p>
             <p>We propose a new method for high-resolution optical flow estimation with significantly less computation, which is achieved by factorizing 2D optical flow with 1D attention and correlation.</p>
         </td>
