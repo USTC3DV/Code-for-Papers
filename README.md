@@ -42,7 +42,7 @@ This repository contains the links of code for partial papers.
             <a href="https://arxiv.org/abs/1902.09907">paper</a> /
             <a href="https://github.com/haofeixu/rdn4depth">code</a>
             <p></p>
-            <p>In this paper, we propose a new learning based method consisting of DepthNet, PoseNet and Region Deformer Networks (RDN) to estimate depth from unconstrained monocular videos without ground truth supervision.</p>
+            <p>In this project, we propose a new learning based method consisting of DepthNet, PoseNet and Region Deformer Networks (RDN) to estimate depth from unconstrained monocular videos without ground truth supervision.</p>
         </td>
         </tr>
     </tbody>
@@ -70,7 +70,7 @@ This repository contains the links of code for partial papers.
             <a href="https://arxiv.org/abs/2004.09548">paper</a> /
             <a href="https://github.com/haofeixu/aanet">code</a>
             <p></p>
-            <p>In this paper, we aim at completely replacing the commonly used 3D convolutions to achieve fast inference speed while maintaining comparable accuracy.</p>
+            <p>In this project, we aim at completely replacing the commonly used 3D convolutions to achieve fast inference speed while maintaining comparable accuracy.</p>
         </td>
         </tr>
     </tbody>
@@ -175,7 +175,7 @@ This repository contains the links of code for partial papers.
             <a href="https://arxiv.org/abs/2004.04322">paper</a> /
             <a href="https://github.com/Juyong/Fast_RNRR">code</a>
             <p></p>
-            <p>In this paper, we propose a formulation for robust non-rigid registration based on a globally smooth robust estimator for data fitting and regularization, which can handle outliers and partial overlaps. We apply the majorization-minimization algorithm to the problem, which reduces each iteration to solving a simple least-squares problem with L-BFGS.</p>
+            <p>In this project, we propose a formulation for robust non-rigid registration based on a globally smooth robust estimator for data fitting and regularization, which can handle outliers and partial overlaps. We apply the majorization-minimization algorithm to the problem, which reduces each iteration to solving a simple least-squares problem with L-BFGS.</p>
         </td>
         </tr>
     </tbody>
@@ -209,7 +209,7 @@ This repository contains the links of code for partial papers.
             <a href="https://arxiv.org/abs/2003.12307">paper</a> /
             <a href="https://github.com/Juyong/FacePSNet">code</a>
             <p></p>
-            <p>In this paper, we present a lightweight strategy that only requires sparse inputs or even a single image to recover high-fidelity face shapes with images captured under near-field lights.</p>
+            <p>In this project, we present a lightweight strategy that only requires sparse inputs or even a single image to recover high-fidelity face shapes with images captured under near-field lights.</p>
         </td>
         </tr>
     </tbody>
@@ -337,7 +337,7 @@ This repository contains the links of code for partial papers.
             <a href="https://arxiv.org/abs/1811.09847">paper</a> /
             <a href="http://staff.ustc.edu.cn/~juyong/RGBD_dataset.html">dataset</a>
             <p></p>
-            <p>In this paper, we propose a new CNN-based face recognition approach that incorporates such attributes into the training process.</p>
+            <p>In this project, we propose a new CNN-based face recognition approach that incorporates such attributes into the training process.</p>
         </td>
         </tr>
     </tbody>
@@ -393,7 +393,7 @@ This repository contains the links of code for partial papers.
             <a href="https://arxiv.org/abs/1902.09887">paper</a> /
             <a href="https://github.com/zihangJiang/DR-Learning-for-3D-Face">code</a>
             <p></p>
-            <p>In this paper, we present a novel strategy to design disentangled 3D face shape representation.</p>
+            <p>In this project, we present a novel strategy to design disentangled 3D face shape representation.</p>
         </td>
         </tr>
     </tbody>
@@ -422,9 +422,7 @@ This repository contains the links of code for partial papers.
             <a href="https://yudongguo.github.io/ADNeRF/">project page</a> /
             <a href="https://github.com/YudongGuo/AD-NeRF">code</a>
             <p></p>
-            <p>We address the talking head problem with the aid of neural scene representation
-            networks. The feature of audio is fed into a conditional implicit function to generate a dynamic
-            neural radiance field for high-fidelity talking-head video synthesis.</p>
+            <p>We address the talking head problem with the aid of neural scene representation networks. The feature of audio is fed into a conditional implicit function to generate a dynamic neural radiance field for high-fidelity talking-head video synthesis.</p>
         </td>
         </tr>
     </tbody>
@@ -458,7 +456,7 @@ This repository contains the links of code for partial papers.
             <a href="https://arxiv.org/abs/2004.00214">paper</a> /
             <a href="https://github.com/jby1993/BCNet">code</a>
             <p></p>
-            <p>In this paper, we consider the problem to automatically reconstruct garment and body shapes from a single near-front view RGB image. To this end, we propose a layered garment representation on top of SMPL and novelly make the skinning weight of garment independent of the body mesh.</p>
+            <p>In this project, we consider the problem to automatically reconstruct garment and body shapes from a single near-front view RGB image. To this end, we propose a layered garment representation on top of SMPL and novelly make the skinning weight of garment independent of the body mesh.</p>
         </td>
         </tr>
     </tbody>
@@ -486,7 +484,7 @@ This repository contains the links of code for partial papers.
             <a href="https://arxiv.org/abs/1905.05622">paper</a> /
             <a href="https://github.com/Juyong/DHNN_BodyRepresentation">code</a>
             <p></p>
-            <p>This paper presents an autoencoder-like network architecture to learn disentangled shape and pose embedding specifically for the 3D human body.</p>
+            <p>This project presents an autoencoder-like network architecture to learn disentangled shape and pose embedding specifically for the 3D human body.</p>
         </td>
         </tr>
     </tbody>
@@ -549,7 +547,7 @@ This repository contains the links of code for partial papers.
             <a href="https://arxiv.org/abs/1812.06060">paper</a> /
             <a href="https://github.com/bldeng/ParaHeat">code</a>
             <p></p>
-            <p>In this paper, we propose a parallel and scalable approach for geodesic distance computation on triangle meshes.</p>
+            <p>In this project, we propose a parallel and scalable approach for geodesic distance computation on triangle meshes.</p>
         </td>
         </tr>
     </tbody>
@@ -577,7 +575,7 @@ This repository contains the links of code for partial papers.
             <a href="https://arxiv.org/abs/2006.14539">paper</a> /
             <a href="https://github.com/YuePengUSTC/AADR">code</a>
             <p></p>
-            <p>In this paper, we note that the equivalence between ADMM and Douglas-Rachford splitting reveals that ADMM is in fact a fixed-point iteration in a lower-dimensional space. By applying Anderson acceleration to such lower-dimensional fixed-point iteration, we obtain a more effective approach for accelerating ADMM.</p>
+            <p>In this project, we note that the equivalence between ADMM and Douglas-Rachford splitting reveals that ADMM is in fact a fixed-point iteration in a lower-dimensional space. By applying Anderson acceleration to such lower-dimensional fixed-point iteration, we obtain a more effective approach for accelerating ADMM.</p>
         </td>
         </tr>
     </tbody>
@@ -629,7 +627,7 @@ This repository contains the links of code for partial papers.
             <a href="https://arxiv.org/abs/1712.03574">paper</a> /
             <a href="https://github.com/bldeng/MeshSDFilter">code</a>
             <p></p>
-            <p>Inspired by recent advances in image filtering, we propose a new geometry filtering technique called static/dynamic filter, which utilizes both static and dynamic guidances to achieve state-of-the-art results.</p>
+            <p>In this project, we propose a new geometry filtering technique called static/dynamic filter, which utilizes both static and dynamic guidances to achieve state-of-the-art results.</p>
         </td>
         </tr>
     </tbody>
@@ -657,7 +655,7 @@ This repository contains the links of code for partial papers.
             <a href="https://arxiv.org/abs/1805.05715">paper</a> /
             <a href="https://github.com/bldeng/AASolver">code</a>
             <p></p>
-            <p>Local-global solvers developed in recent years can quickly compute an approximate solution to such problems, making them an attractive choice for applications that prioritize efficiency over accuracy. However, these solvers suffer from lower convergence rate, and may take a long time to compute an accurate result. In this paper, we propose a simple and effective technique to accelerate the convergence of such solvers.</p>
+            <p>In this project, we propose a simple and effective technique to accelerate the convergence of local-global solvers.</p>
         </td>
         </tr>
     </tbody>
